@@ -1,0 +1,237 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/jalopi/.nvm/v0.8.28/bin/node',
+1 verbose cli   '/Users/jalopi/.nvm/v0.8.28/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@1.2.30
+3 info using node@v0.8.28
+4 verbose read json /Users/jalopi/Desktop/my-portfolio/package.json
+5 warn package.json my-portfolio@0.1.0 No repository field.
+6 verbose readDependencies using package.json deps
+7 verbose install where, deps [ '/Users/jalopi/Desktop/my-portfolio',
+7 verbose install   [ '@craco/craco',
+7 verbose install     '@heroicons/react',
+7 verbose install     'react',
+7 verbose install     'react-dom',
+7 verbose install     'react-scripts',
+7 verbose install     'autoprefixer',
+7 verbose install     'postcss',
+7 verbose install     'tailwindcss' ] ]
+8 verbose from cache /Users/jalopi/Desktop/my-portfolio/package.json
+9 info preinstall my-portfolio@0.1.0
+10 verbose from cache /Users/jalopi/Desktop/my-portfolio/package.json
+11 verbose readDependencies using package.json deps
+12 verbose cache add [ '@craco/craco@^5.9.0', null ]
+13 verbose cache add name=undefined spec="@craco/craco@^5.9.0" args=["@craco/craco@^5.9.0",null]
+14 verbose parsed url { pathname: '@craco/craco@^5.9.0',
+14 verbose parsed url   path: '@craco/craco@^5.9.0',
+14 verbose parsed url   href: '@craco/craco@^5.9.0' }
+15 verbose cache add name="" spec="craco/craco@^5.9.0" args=["","craco/craco@^5.9.0"]
+16 verbose parsed url { pathname: 'craco/craco@^5.9.0',
+16 verbose parsed url   path: 'craco/craco@^5.9.0',
+16 verbose parsed url   href: 'craco/craco@^5.9.0' }
+17 verbose cache add name="craco/craco" spec="^5.9.0" args=["craco/craco","^5.9.0"]
+18 verbose parsed url { pathname: '^5.9.0', path: '^5.9.0', href: '^5.9.0' }
+19 verbose addNamed [ 'craco/craco', '^5.9.0' ]
+20 verbose addNamed [ null, null ]
+21 verbose cache add [ '@heroicons/react@^1.0.1', null ]
+22 verbose cache add name=undefined spec="@heroicons/react@^1.0.1" args=["@heroicons/react@^1.0.1",null]
+23 verbose parsed url { pathname: '@heroicons/react@^1.0.1',
+23 verbose parsed url   path: '@heroicons/react@^1.0.1',
+23 verbose parsed url   href: '@heroicons/react@^1.0.1' }
+24 verbose cache add name="" spec="heroicons/react@^1.0.1" args=["","heroicons/react@^1.0.1"]
+25 verbose parsed url { pathname: 'heroicons/react@^1.0.1',
+25 verbose parsed url   path: 'heroicons/react@^1.0.1',
+25 verbose parsed url   href: 'heroicons/react@^1.0.1' }
+26 verbose cache add name="heroicons/react" spec="^1.0.1" args=["heroicons/react","^1.0.1"]
+27 verbose parsed url { pathname: '^1.0.1', path: '^1.0.1', href: '^1.0.1' }
+28 verbose addNamed [ 'heroicons/react', '^1.0.1' ]
+29 verbose addNamed [ null, null ]
+30 silly lockFile 4797fd29-craco-craco-5-9-0 craco/craco@^5.9.0
+31 verbose lock craco/craco@^5.9.0 /Users/jalopi/.npm/4797fd29-craco-craco-5-9-0.lock
+32 verbose cache add [ 'react@^17.0.2', null ]
+33 verbose cache add name=undefined spec="react@^17.0.2" args=["react@^17.0.2",null]
+34 verbose parsed url { pathname: 'react@^17.0.2',
+34 verbose parsed url   path: 'react@^17.0.2',
+34 verbose parsed url   href: 'react@^17.0.2' }
+35 verbose cache add name="react" spec="^17.0.2" args=["react","^17.0.2"]
+36 verbose parsed url { pathname: '^17.0.2', path: '^17.0.2', href: '^17.0.2' }
+37 verbose addNamed [ 'react', '^17.0.2' ]
+38 verbose addNamed [ null, null ]
+39 silly lockFile c393daac-react-17-0-2 react@^17.0.2
+40 verbose lock react@^17.0.2 /Users/jalopi/.npm/c393daac-react-17-0-2.lock
+41 verbose cache add [ 'react-dom@^17.0.2', null ]
+42 verbose cache add name=undefined spec="react-dom@^17.0.2" args=["react-dom@^17.0.2",null]
+43 verbose parsed url { pathname: 'react-dom@^17.0.2',
+43 verbose parsed url   path: 'react-dom@^17.0.2',
+43 verbose parsed url   href: 'react-dom@^17.0.2' }
+44 verbose cache add name="react-dom" spec="^17.0.2" args=["react-dom","^17.0.2"]
+45 verbose parsed url { pathname: '^17.0.2', path: '^17.0.2', href: '^17.0.2' }
+46 verbose addNamed [ 'react-dom', '^17.0.2' ]
+47 verbose addNamed [ null, null ]
+48 silly lockFile 01349b31-react-dom-17-0-2 react-dom@^17.0.2
+49 verbose lock react-dom@^17.0.2 /Users/jalopi/.npm/01349b31-react-dom-17-0-2.lock
+50 verbose cache add [ 'react-scripts@^1.1.5', null ]
+51 verbose cache add name=undefined spec="react-scripts@^1.1.5" args=["react-scripts@^1.1.5",null]
+52 verbose parsed url { pathname: 'react-scripts@^1.1.5',
+52 verbose parsed url   path: 'react-scripts@^1.1.5',
+52 verbose parsed url   href: 'react-scripts@^1.1.5' }
+53 verbose cache add name="react-scripts" spec="^1.1.5" args=["react-scripts","^1.1.5"]
+54 verbose parsed url { pathname: '^1.1.5', path: '^1.1.5', href: '^1.1.5' }
+55 verbose addNamed [ 'react-scripts', '^1.1.5' ]
+56 verbose addNamed [ null, null ]
+57 silly lockFile 1144fa30-react-scripts-1-1-5 react-scripts@^1.1.5
+58 verbose lock react-scripts@^1.1.5 /Users/jalopi/.npm/1144fa30-react-scripts-1-1-5.lock
+59 verbose cache add [ 'autoprefixer@^9.8.6', null ]
+60 verbose cache add name=undefined spec="autoprefixer@^9.8.6" args=["autoprefixer@^9.8.6",null]
+61 verbose parsed url { pathname: 'autoprefixer@^9.8.6',
+61 verbose parsed url   path: 'autoprefixer@^9.8.6',
+61 verbose parsed url   href: 'autoprefixer@^9.8.6' }
+62 verbose cache add name="autoprefixer" spec="^9.8.6" args=["autoprefixer","^9.8.6"]
+63 verbose parsed url { pathname: '^9.8.6', path: '^9.8.6', href: '^9.8.6' }
+64 verbose addNamed [ 'autoprefixer', '^9.8.6' ]
+65 verbose addNamed [ null, null ]
+66 silly lockFile dea576bc-autoprefixer-9-8-6 autoprefixer@^9.8.6
+67 verbose lock autoprefixer@^9.8.6 /Users/jalopi/.npm/dea576bc-autoprefixer-9-8-6.lock
+68 verbose cache add [ 'postcss@^7.0.36', null ]
+69 verbose cache add name=undefined spec="postcss@^7.0.36" args=["postcss@^7.0.36",null]
+70 verbose parsed url { pathname: 'postcss@^7.0.36',
+70 verbose parsed url   path: 'postcss@^7.0.36',
+70 verbose parsed url   href: 'postcss@^7.0.36' }
+71 verbose cache add name="postcss" spec="^7.0.36" args=["postcss","^7.0.36"]
+72 verbose parsed url { pathname: '^7.0.36', path: '^7.0.36', href: '^7.0.36' }
+73 verbose addNamed [ 'postcss', '^7.0.36' ]
+74 verbose addNamed [ null, null ]
+75 silly lockFile ee74778e-postcss-7-0-36 postcss@^7.0.36
+76 verbose lock postcss@^7.0.36 /Users/jalopi/.npm/ee74778e-postcss-7-0-36.lock
+77 verbose cache add [ 'tailwindcss@npm:@tailwindcss/postcss7-compat@^2.0.2', null ]
+78 verbose cache add name=undefined spec="tailwindcss@npm:@tailwindcss/postcss7-compat@^2.0.2" args=["tailwindcss@npm:@tailwindcss/postcss7-compat@^2.0.2",null]
+79 verbose parsed url { pathname: 'tailwindcss@npm:@tailwindcss/postcss7-compat@^2.0.2',
+79 verbose parsed url   path: 'tailwindcss@npm:@tailwindcss/postcss7-compat@^2.0.2',
+79 verbose parsed url   href: 'tailwindcss@npm:@tailwindcss/postcss7-compat@^2.0.2' }
+80 verbose cache add name="tailwindcss" spec="npm:@tailwindcss/postcss7-compat@^2.0.2" args=["tailwindcss","npm:@tailwindcss/postcss7-compat@^2.0.2"]
+81 verbose parsed url { protocol: 'npm:',
+81 verbose parsed url   auth: '',
+81 verbose parsed url   host: 'tailwindcss',
+81 verbose parsed url   hostname: 'tailwindcss',
+81 verbose parsed url   href: 'npm:tailwindcss/postcss7-compat@^2.0.2',
+81 verbose parsed url   pathname: '/postcss7-compat@^2.0.2',
+81 verbose parsed url   path: '/postcss7-compat@^2.0.2' }
+82 verbose addNamed [ 'tailwindcss', 'npm:@tailwindcss/postcss7-compat@^2.0.2' ]
+83 verbose addNamed [ null, null ]
+84 silly lockFile 53518041-ailwindcss-postcss7-compat-2-0-2 tailwindcss@npm:@tailwindcss/postcss7-compat@^2.0.2
+85 verbose lock tailwindcss@npm:@tailwindcss/postcss7-compat@^2.0.2 /Users/jalopi/.npm/53518041-ailwindcss-postcss7-compat-2-0-2.lock
+86 silly lockFile 5e3288a2-heroicons-react-1-0-1 heroicons/react@^1.0.1
+87 verbose lock heroicons/react@^1.0.1 /Users/jalopi/.npm/5e3288a2-heroicons-react-1-0-1.lock
+88 info addNameTag [ 'craco/craco', '^5.9.0' ]
+89 info addNameTag [ 'react', '^17.0.2' ]
+90 info addNameTag [ 'react-dom', '^17.0.2' ]
+91 info addNameTag [ 'react-scripts', '^1.1.5' ]
+92 info addNameTag [ 'autoprefixer', '^9.8.6' ]
+93 info addNameTag [ 'postcss', '^7.0.36' ]
+94 info addNameTag [ 'tailwindcss', 'npm:@tailwindcss/postcss7-compat@^2.0.2' ]
+95 info addNameTag [ 'heroicons/react', '^1.0.1' ]
+96 verbose url raw craco/craco
+97 verbose url resolving [ 'https://registry.npmjs.org/', './craco/craco' ]
+98 verbose url resolved https://registry.npmjs.org/craco/craco
+99 info trying registry request attempt 1 at 11:20:35
+100 http GET https://registry.npmjs.org/craco/craco
+101 verbose url raw react
+102 verbose url resolving [ 'https://registry.npmjs.org/', './react' ]
+103 verbose url resolved https://registry.npmjs.org/react
+104 info trying registry request attempt 1 at 11:20:35
+105 http GET https://registry.npmjs.org/react
+106 verbose url raw react-dom
+107 verbose url resolving [ 'https://registry.npmjs.org/', './react-dom' ]
+108 verbose url resolved https://registry.npmjs.org/react-dom
+109 info trying registry request attempt 1 at 11:20:35
+110 http GET https://registry.npmjs.org/react-dom
+111 verbose url raw react-scripts
+112 verbose url resolving [ 'https://registry.npmjs.org/', './react-scripts' ]
+113 verbose url resolved https://registry.npmjs.org/react-scripts
+114 info trying registry request attempt 1 at 11:20:35
+115 http GET https://registry.npmjs.org/react-scripts
+116 verbose url raw autoprefixer
+117 verbose url resolving [ 'https://registry.npmjs.org/', './autoprefixer' ]
+118 verbose url resolved https://registry.npmjs.org/autoprefixer
+119 info trying registry request attempt 1 at 11:20:35
+120 http GET https://registry.npmjs.org/autoprefixer
+121 verbose url raw postcss
+122 verbose url resolving [ 'https://registry.npmjs.org/', './postcss' ]
+123 verbose url resolved https://registry.npmjs.org/postcss
+124 info trying registry request attempt 1 at 11:20:35
+125 http GET https://registry.npmjs.org/postcss
+126 verbose url raw tailwindcss
+127 verbose url resolving [ 'https://registry.npmjs.org/', './tailwindcss' ]
+128 verbose url resolved https://registry.npmjs.org/tailwindcss
+129 info trying registry request attempt 1 at 11:20:35
+130 http GET https://registry.npmjs.org/tailwindcss
+131 verbose url raw heroicons/react
+132 verbose url resolving [ 'https://registry.npmjs.org/', './heroicons/react' ]
+133 verbose url resolved https://registry.npmjs.org/heroicons/react
+134 info trying registry request attempt 1 at 11:20:35
+135 http GET https://registry.npmjs.org/heroicons/react
+136 info retry will retry, error on last attempt: Error: 4454761984:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+137 info retry will retry, error on last attempt: Error: 4454761984:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+138 info retry will retry, error on last attempt: Error: 4454761984:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+139 info retry will retry, error on last attempt: Error: 4454761984:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+140 info retry will retry, error on last attempt: Error: 4454761984:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+141 info retry will retry, error on last attempt: Error: 4454761984:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+142 info retry will retry, error on last attempt: Error: 4454761984:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+143 info retry will retry, error on last attempt: Error: 4454761984:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+144 info trying registry request attempt 2 at 11:20:45
+145 http GET https://registry.npmjs.org/react-scripts
+146 info trying registry request attempt 2 at 11:20:45
+147 http GET https://registry.npmjs.org/autoprefixer
+148 info trying registry request attempt 2 at 11:20:45
+149 http GET https://registry.npmjs.org/react
+150 info trying registry request attempt 2 at 11:20:45
+151 http GET https://registry.npmjs.org/craco/craco
+152 info trying registry request attempt 2 at 11:20:45
+153 http GET https://registry.npmjs.org/react-dom
+154 info trying registry request attempt 2 at 11:20:45
+155 http GET https://registry.npmjs.org/heroicons/react
+156 info trying registry request attempt 2 at 11:20:45
+157 http GET https://registry.npmjs.org/postcss
+158 info trying registry request attempt 2 at 11:20:45
+159 http GET https://registry.npmjs.org/tailwindcss
+160 info retry will retry, error on last attempt: Error: 4454761984:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+161 info retry will retry, error on last attempt: Error: 4454761984:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+162 info retry will retry, error on last attempt: Error: 4454761984:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+163 info retry will retry, error on last attempt: Error: 4454761984:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+164 info retry will retry, error on last attempt: Error: 4454761984:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+165 info retry will retry, error on last attempt: Error: 4454761984:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+166 info retry will retry, error on last attempt: Error: 4454761984:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+167 info retry will retry, error on last attempt: Error: 4454761984:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+168 info trying registry request attempt 3 at 11:21:45
+169 http GET https://registry.npmjs.org/react-scripts
+170 info trying registry request attempt 3 at 11:21:45
+171 http GET https://registry.npmjs.org/autoprefixer
+172 info trying registry request attempt 3 at 11:21:45
+173 http GET https://registry.npmjs.org/react-dom
+174 info trying registry request attempt 3 at 11:21:45
+175 http GET https://registry.npmjs.org/react
+176 silly lockFile 1144fa30-react-scripts-1-1-5 react-scripts@^1.1.5
+177 silly lockFile 1144fa30-react-scripts-1-1-5 react-scripts@^1.1.5
+178 info trying registry request attempt 3 at 11:21:45
+179 http GET https://registry.npmjs.org/craco/craco
+180 silly lockFile dea576bc-autoprefixer-9-8-6 autoprefixer@^9.8.6
+181 silly lockFile dea576bc-autoprefixer-9-8-6 autoprefixer@^9.8.6
+182 error Error: 4454761984:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+182 error
+182 error     at CleartextStream._puller (tls.js:670:24)
+182 error     at CleartextStream.CryptoStream._pull (tls.js:604:19)
+182 error     at SecurePair.cycle (tls.js:894:20)
+182 error     at EncryptedStream.CryptoStream.write (tls.js:285:13)
+182 error     at Socket.ondata (stream.js:38:26)
+182 error     at Socket.EventEmitter.emit (events.js:96:17)
+182 error     at TCP.onread (net.js:397:14)
+183 error If you need help, you may report this log at:
+183 error     <http://github.com/isaacs/npm/issues>
+183 error or email it to:
+183 error     <npm-@googlegroups.com>
+184 error System Darwin 21.2.0
+185 error command "/Users/jalopi/.nvm/v0.8.28/bin/node" "/Users/jalopi/.nvm/v0.8.28/bin/npm" "install"
+186 error cwd /Users/jalopi/Desktop/my-portfolio
+187 error node -v v0.8.28
+188 error npm -v 1.2.30
+189 verbose exit [ 1, true ]
